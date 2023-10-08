@@ -109,13 +109,20 @@ a {
   margin: 8px 24px;
 }
 
+.quote_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .quote {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   justify-content:stretch;
   align-items: center;
-  padding: 48px 300px;
+  padding: 48px 48px;
+  margin: 48px 0;
   flex-shrink: 0;
 }
 
@@ -132,13 +139,20 @@ a {
   padding: 5px 0 0 280px;
 }
 
+.call_for_action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cfa_box {
   border-radius: 10px;
   padding: 48px 48px;
-  margin: 48px 250px;
+  margin: 48px 0;
   background-color: #3882f6;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 50px;
   align-items: center;
 }
 
